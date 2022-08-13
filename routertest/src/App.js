@@ -10,9 +10,9 @@ function App(props){
 return(
 <BrowserRouter>
 <Routes>
-    <Route exact path = "/" />
+    <Route exact path = "/" element={<Page4 /> } />
     <Route exact path = "/page4" element={<Page4/>} />
-    <Route exact path = "/page5/:type" element={<Page5/>} /> 
+    <Route exact path = "/page5/:type/:type1" element={<Page5/>} />
 </Routes>
 </BrowserRouter>
 
