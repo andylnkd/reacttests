@@ -10,8 +10,8 @@ return(
      Title of Page 4
    </h1>
    <hr />
-     <Link to={{pathname: "/page5/:123/213"}}
-> move to next page (Page 5 with Param 'Heyy') </Link>      
+     <Link to={{pathname: "/page5/type/type1"}}
+> move to next page (Page 5 with Param 'Heyy') </Link>
    </div>
 
 

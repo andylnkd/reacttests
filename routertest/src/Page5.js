@@ -9,7 +9,7 @@ function Page5(props){
     <div>
       <h1>title of Page 5</h1>
       <hr/>
-      <Link to={"/page4"}> Move to previous page based on {type}</Link>
+      <Link to={"/page4"}> Move to previous page based on {type} {type1}</Link>
     </div>
 
   );
